@@ -43,11 +43,11 @@
           <div class="container">
             <div class="d-flex">
               <a class="header-brand" href="./index.html">
-                <img src="./demo/brand/tabler.svg" class="header-brand-img" alt="tabler logo">
+                <img src="./demo/brand/breadcrumbs_logo.jpg" class="header-brand-img" alt="tabler logo">
               </a>
               <div class="d-flex order-lg-2 ml-auto">
                 <div class="nav-item d-none d-md-flex">
-                  <a href="https://github.com/tabler/tabler" class="btn btn-sm btn-outline-primary" target="_blank">Source code</a>
+                  
                 </div>
                 <div class="dropdown d-none d-md-flex">
                   <a class="nav-link icon" data-toggle="dropdown">
@@ -134,7 +134,7 @@
                   <li class="nav-item">
                     <a href="./index.html" class="nav-link active"><i class="fe fe-home"></i> Home</a>
                   </li>
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-box"></i> Interface</a>
                     <div class="dropdown-menu dropdown-menu-arrow">
                       <a href="./cards.html" class="dropdown-item ">Cards design</a>
@@ -178,7 +178,7 @@
                   </li>
                   <li class="nav-item">
                     <a href="./docs/index.html" class="nav-link"><i class="fe fe-file-text"></i> Documentation</a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
@@ -188,12 +188,12 @@
           <div class="container">
             <div class="page-header">
               <h1 class="page-title">
-                Dashboard
+                 <b>Engineers Without Borders Canada</b> 
               </h1>
             </div>
             <div class="card">
                 <div class="card-header">
-                  <h3 class="card-title">Engineers Without Borders Canada</h3>
+                  <h1 class="card-title">Description</h1>
                 </div>
                 <div class="card-body">
                   EWB Canada engages in numerous educational and public outreach activities in Canada including educating high school students about international development issues via the School Outreach program, enhancing curricula at some universities by developing assignments or courses for engineering students, and informing the Canadian public on global development issues.
@@ -328,54 +328,43 @@
               <div class="col-lg-6">
                 <div class="card">
                   <div class="card-header">
-                    <h3 class="card-title">Development Activity</h3>
+                    <h3 class="card-title">Revenue split across Sectors</h3>
                   </div>
                   <div id="chart-development-activity" style="height: 10rem"></div>
                   <div class="table-responsive">
                     <table class="table card-table table-striped table-vcenter">
                       <thead>
                         <tr>
-                          <th colspan="2">User</th>
-                          <th>Commit</th>
-                          <th>Date</th>
-                          <th></th>
+                          <th colspan="2">Biggest Donors</th>
+                          <th>Contribution</th>
+                          <th>Timeline</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td class="w-1"><span class="avatar" style="background-image: url(./demo/faces/male/9.jpg)"></span></td>
-                          <td>Ronald Bradley</td>
-                          <td>Initial commit</td>
-                          <td class="text-nowrap">May 6, 2018</td>
-                          <td class="w-1"><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+                          <td><span class="avatar">GoC</span></td>
+                          <td>Government of Canada</td>
+                          <td>$30 million</td>
+                          <td class="text-nowrap">May, 2013-Present</td>
                         </tr>
                         <tr>
-                          <td><span class="avatar">BM</span></td>
-                          <td>Russell Gibson</td>
-                          <td>Main structure</td>
-                          <td class="text-nowrap">April 22, 2018</td>
-                          <td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+                          <td><span class="avatar">GAC</span></td>
+                          <td>Global Affairs Canada</td>
+                          <td>$18 million</td>
+                          <td class="text-nowrap">April, 2013-Present</td>
+                          
                         </tr>
                         <tr>
-                          <td><span class="avatar" style="background-image: url(./demo/faces/female/1.jpg)"></span></td>
-                          <td>Beverly Armstrong</td>
-                          <td>Left sidebar adjustments</td>
-                          <td class="text-nowrap">April 15, 2018</td>
-                          <td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+                          <td><span class="avatar">BMG</span></td>
+                          <td>Bill and Melinda Gates Foundatiion</td>
+                          <td>$9 million</td>
+                          <td class="text-nowrap">April, 2014-Present</td>
                         </tr>
                         <tr>
-                          <td><span class="avatar" style="background-image: url(./demo/faces/male/4.jpg)"></span></td>
-                          <td>Bobby Knight</td>
-                          <td>Topbar dropdown style</td>
-                          <td class="text-nowrap">April 8, 2018</td>
-                          <td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                          <td><span class="avatar" style="background-image: url(./demo/faces/female/11.jpg)"></span></td>
-                          <td>Sharon Wells</td>
-                          <td>Fixes #625</td>
-                          <td class="text-nowrap">April 9, 2018</td>
-                          <td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
+                          <td><span class="avatar">S</span></td>
+                          <td>Suncor</td>
+                          <td>$2 million</td>
+                          <td class="text-nowrap">April, 2013-Present</td>
                         </tr>
                       </tbody>
                     </table>
@@ -389,18 +378,24 @@
                   			data: {
                   				columns: [
                   				    // each columns data
-                  					['data1', 0, 5, 1, 2, 7, 5, 6, 8, 24, 7, 12, 5, 6, 3, 2, 2, 6, 30, 10, 10, 15, 14, 47, 65, 55]
+                  					['data1', 0, 5, 1, 2, 7, 5, 6, 8, 24, 7, 12, 5, 6, 3, 2, 2, 6, 30, 10, 10, 15, 14, 30, 65, 55],
+                            ['data2', 0, 5, 4, 2, 3, 5, 8, 5, 14, 7, 12, 5, 6, 3, 2, 2, 6, 15, 10, 10, 15, 21, 28, 34, 38],
+                            ['data3', 0, 5, 1, 2, 7, 6, 3, 9, 27, 5, 11, 5, 6, 3, 2, 2, 6, 38, 10, 10, 15, 14, 41, 32, 49]
                   				],
                   				type: 'area', // default type of chart
                   				groups: [
                   					[ 'data1', 'data2', 'data3']
                   				],
                   				colors: {
-                  					'data1': tabler.colors["blue"]
+                  					'data1': tabler.colors["orange"],
+                            'data2': tabler.colors["blue"],
+                            'data3': tabler.colors["green"]
                   				},
                   				names: {
                   				    // name of each serie
-                  					'data1': 'Purchases'
+                  					'data1': 'Education',
+                            'data2': 'Health',
+                            'data3': 'Employement'
                   				}
                   			},
                   			axis: {
@@ -456,10 +451,10 @@
                   <div class="col-sm-6">
                     <div class="card">
                       <div class="card-header">
-                        <h3 class="card-title">Sectors They Serve</h3>
+                        <h3 class="card-title">Donation Sources</h3>
                       </div>
                       <div class="card-body">
-                        <div id="chart-donut" style="height: 12rem;"></div>
+                        <div id="chart-donut" style="height: 24rem;"></div>
                       </div>
                     </div>
                     <script>
@@ -515,7 +510,7 @@
                         <h3 class="card-title">Sectors they serve</h3>
                       </div>
                       <div class="card-body">
-                        <div id="chart-pie" style="height: 12rem;"></div>
+                        <div id="chart-pie" style="height: 24rem;"></div>
                       </div>
                     </div>
                     <script>
@@ -531,9 +526,9 @@
                       					['data3', 12]                      				],
                       				type: 'pie', // default type of chart
                       				colors: {
-                      					'data1': tabler.colors["blue-darker"],
+                      					'data1': tabler.colors["orange"],
                       					'data2': tabler.colors["blue"],
-                      					'data3': tabler.colors["blue-light"]
+                      					'data3': tabler.colors["green"]
                       				},
                       				names: {
                       				    // name of each serie
@@ -555,92 +550,17 @@
                       });
                     </script>
                   </div>
-                  <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-body text-center">
-                        <div class="h5">New feedback</div>
-                        <div class="display-4 font-weight-bold mb-4">62</div>
-                        <div class="progress progress-sm">
-                          <div class="progress-bar bg-red" style="width: 28%"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-body text-center">
-                        <div class="h5">Today profit</div>
-                        <div class="display-4 font-weight-bold mb-4">$652</div>
-                        <div class="progress progress-sm">
-                          <div class="progress-bar bg-green" style="width: 84%"></div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-lg-3">
-                <div class="card p-3">
-                  <div class="d-flex align-items-center">
-                    <span class="stamp stamp-md bg-blue mr-3">
-                      <i class="fe fe-dollar-sign"></i>
-                    </span>
-                    <div>
-                      <h4 class="m-0"><a href="javascript:void(0)">132 <small>Sales</small></a></h4>
-                      <small class="text-muted">12 waiting payments</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-3">
-                <div class="card p-3">
-                  <div class="d-flex align-items-center">
-                    <span class="stamp stamp-md bg-green mr-3">
-                      <i class="fe fe-shopping-cart"></i>
-                    </span>
-                    <div>
-                      <h4 class="m-0"><a href="javascript:void(0)">78 <small>Orders</small></a></h4>
-                      <small class="text-muted">32 shipped</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-3">
-                <div class="card p-3">
-                  <div class="d-flex align-items-center">
-                    <span class="stamp stamp-md bg-red mr-3">
-                      <i class="fe fe-users"></i>
-                    </span>
-                    <div>
-                      <h4 class="m-0"><a href="javascript:void(0)">1,352 <small>Members</small></a></h4>
-                      <small class="text-muted">163 registered today</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-3">
-                <div class="card p-3">
-                  <div class="d-flex align-items-center">
-                    <span class="stamp stamp-md bg-yellow mr-3">
-                      <i class="fe fe-message-square"></i>
-                    </span>
-                    <div>
-                      <h4 class="m-0"><a href="javascript:void(0)">132 <small>Comments</small></a></h4>
-                      <small class="text-muted">16 waiting</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row row-cards row-deck">
+              <div class="row row-cards row-deck">
               <div class="col-lg-6">
                 <div class="card card-aside">
-                  <a href="#" class="card-aside-column" style="background-image: url(./demo/photos/david-klaasen-54203-500.jpg)"></a>
+                  <a href="#" class="card-aside-column" style="background-image: url(./demo/photos/cnn.jpg)"></a>
                   <div class="card-body d-flex flex-column">
                     <h4><a href="#">And this isn't my nose. This is a false one.</a></h4>
                     <div class="text-muted">Look, my liege! The Knights Who Say Ni demand a sacrifice! …Are you suggesting that coconuts migr...</div>
                     <div class="d-flex align-items-center pt-5 mt-auto">
-                      <div class="avatar avatar-md mr-3" style="background-image: url(./demo/faces/female/18.jpg)"></div>
                       <div>
                         <a href="./profile.html" class="text-default">Rose Bradley</a>
                         <small class="d-block text-muted">3 days ago</small>
@@ -654,13 +574,12 @@
               </div>
               <div class="col-lg-6">
                 <div class="card card-aside">
-                  <a href="#" class="card-aside-column" style="background-image: url(./demo/photos/david-marcu-114194-500.jpg)"></a>
+                  <a href="#" class="card-aside-column" style="background-image: url(./demo/photos/bbc.jpg)"></a>
                   <div class="card-body d-flex flex-column">
                     <h4><a href="#">Well, I didn't vote for you.</a></h4>
                     <div class="text-muted">Well, we did do the nose. Why? Shut up! Will you shut up?! You don't frighten us, English pig-dog...</div>
                     <div class="d-flex align-items-center pt-5 mt-auto">
-                      <div class="avatar avatar-md mr-3" style="background-image: url(./demo/faces/male/16.jpg)"></div>
-                      <div>
+                       <div>
                         <a href="./profile.html" class="text-default">Peter Richards</a>
                         <small class="d-block text-muted">3 days ago</small>
                       </div>
@@ -677,11 +596,11 @@
                 <div class="card">
                   <div class="table-responsive">
                     <table class="table table-hover table-outline table-vcenter text-nowrap card-table">
-                      <thead>
+                                            <thead>
                         <tr>
-						  <th class="text-center">Project Name</th>
-						  <!--<th class="text-center w-1"><i class="icon-people"></i></th>-->
-						  <th>Project Manager</th>
+              <th class="text-center">Project Name</th>
+              <!--<th class="text-center w-1"><i class="icon-people"></i></th>-->
+              <th>Project Manager</th>
                           <th>Money Raised</th>
                    
                           <th>Project Timeline</th>
@@ -689,397 +608,326 @@
                           <th class="text-center"><i class="icon-settings"></i></th>
                         </tr>
                       </thead>
-					  <tbody>
-					  	<tr>
-					  		<td class="text-center">
-					  			<!--<i class="payment payment-visa"></i>-->
-					  			<div>Global Engineering</div>
-					  		</td>
-					  		<td>
-					  			<div>Elizabeth Martin</div>
-					  			<div class="small text-muted">
-					  				Registered: Mar 19, 2018
-					  			</div>
-					  		</td>
-					  		<td>
-					  			<div class="clearfix">
-					  				<div class="float-left">
-					  					<strong>42%</strong>
-					  				</div>
-					  				<div class="float-right">
-					  					<small class="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
-					  				</div>
-					  			</div>
-					  			<div class="progress progress-xs">
-					  				<div class="progress-bar bg-green" role="progressbar" style="width: 42%"
-								 aria-valuenow="42" aria-valuemin="0" aria-valuemax="100"></div>
-					  			</div>
-					  		</td>
-					  		<td>
-					  			<div class="small text-muted">Duration</div>
-					  			<div>4 months</div>
-					  		</td>
-					  		<td class="text-center">
-					  			<div class="mx-auto chart-circle chart-circle-xs" data-value="0.69" data-thickness="3" data-color="blue">
-					  				<div class="chart-circle-value">69%</div>
-					  			</div>
-					  		</td>
-					  		<td class="text-center">
-					  			<div class="item-action dropdown">
-					  				<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
-					  				<div class="dropdown-menu dropdown-menu-right">
-					  					<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
-					  					<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
-					  					<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
-					  					<div class="dropdown-divider"></div>
-					  					<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
-					  				</div>
-					  			</div>
-					  		</td>
-					  	</tr>
-					  	<tr>
-					  		<td class="text-center">
-					  			<!--<i class="payment payment-visa"></i>-->
-					  			<div>Youth Engagement</div>
-					  		</td>
-					  		<td>
-					  			<div>Michelle Schultz</div>
-					  			<div class="small text-muted">
-					  				Registered: Mar 2, 2018
-					  			</div>
-					  		</td>
-					  		<td>
-					  			<div class="clearfix">
-					  				<div class="float-left">
-					  					<strong>11%</strong>
-					  				</div>
-					  				<div class="float-right">
-					  					<small class="text-muted">Jun 11, 2014 - Jul 10, 2015</small>
-					  				</div>
-					  			</div>
-					  			<div class="progress progress-xs">
-					  				<div class="progress-bar bg-green" role="progressbar" style="width: 11%"
-								 aria-valuenow="11" aria-valuemin="0" aria-valuemax="100"></div>
-					  			</div>
-					  		</td>
-					  		<td>
-					  			<div class="small text-muted">Duration</div>
-					  			<div>6 months</div>
-					  		</td>
-					  		<td class="text-center">
-					  			<div class="mx-auto chart-circle chart-circle-xs" data-value="0.51" data-thickness="3" data-color="blue">
-					  				<div class="chart-circle-value">51%</div>
-					  			</div>
-					  		</td>
-					  		<td class="text-center">
-					  			<div class="item-action dropdown">
-					  				<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
-					  				<div class="dropdown-menu dropdown-menu-right">
-					  					<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
-					  					<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
-					  					<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
-					  					<div class="dropdown-divider"></div>
-					  					<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
-					  				</div>
-					  			</div>
-					  		</td>
-					  	</tr>
-						<tr>
-							<td class="text-center">
-								<div>Political Advocacy</div>
-							</td>
-							<td>
-								<div>Crystal Austin</div>
-								<div class="small text-muted">
-									Registered: Apr 7, 2018
-								</div>
-							</td>
-							<td>
-								<div class="clearfix">
-									<div class="float-left">
-										<strong>96%</strong>
-									</div>
-									<div class="float-right">
-										<small class="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
-									</div>
-								</div>
-								<div class="progress progress-xs">
-									<div class="progress-bar bg-green" role="progressbar" style="width: 96%"
-										 aria-valuenow="96" aria-valuemin="0" aria-valuemax="100"></div>
-								</div>
-							</td>
-							<td>
-								<div class="small text-muted">Duration</div>
-								<div>10 months</div>
-							</td>
-							<td class="text-center">
-								<div class="mx-auto chart-circle chart-circle-xs" data-value="0.72" data-thickness="3" data-color="blue">
-									<div class="chart-circle-value">72%</div>
-								</div>
-							</td>
-							<td class="text-center">
-								<div class="item-action dropdown">
-									<a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
-									<div class="dropdown-menu dropdown-menu-right">
-										<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
-										<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
-										<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
-										<div class="dropdown-divider"></div>
-										<a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
-									</div>
-								</div>
-							</td>
-						</tr>
-					  </tbody>
+            <tbody>
+              <tr>
+                <td class="text-center">
+                  <!--<i class="payment payment-visa"></i>-->
+                  <div>Global Engineering</div>
+                </td>
+                <td>
+                  <div>Elizabeth Martin</div>
+                  <div class="small text-muted">
+                    Registered: Mar 19, 2018
+                  </div>
+                </td>
+                <td>
+                  <div class="clearfix">
+                    <div class="float-left">
+                      <strong>42%</strong>
+                    </div>
+                    <div class="float-right">
+                      <small class="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+                    </div>
+                  </div>
+                  <div class="progress progress-xs">
+                    <div class="progress-bar bg-yellow" role="progressbar" style="width: 42%"
+                 aria-valuenow="42" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="small text-muted">Duration</div>
+                  <div>4 months</div>
+                </td>
+                <td class="text-center">
+                  <div class="mx-auto chart-circle chart-circle-xs" data-value="0.69" data-thickness="3" data-color="yellow">
+                    <div class="chart-circle-value">69%</div>
+                  </div>
+                </td>
+                <td class="text-center">
+                  <div class="item-action dropdown">
+                    <a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+                      <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+                      <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <!--<i class="payment payment-visa"></i>-->
+                  <div>Youth Engagement</div>
+                </td>
+                <td>
+                  <div>Michelle Schultz</div>
+                  <div class="small text-muted">
+                    Registered: Mar 2, 2018
+                  </div>
+                </td>
+                <td>
+                  <div class="clearfix">
+                    <div class="float-left">
+                      <strong>11%</strong>
+                    </div>
+                    <div class="float-right">
+                      <small class="text-muted">Jun 11, 2014 - Jul 10, 2015</small>
+                    </div>
+                  </div>
+                  <div class="progress progress-xs">
+                    <div class="progress-bar bg-red" role="progressbar" style="width: 11%"
+                 aria-valuenow="11" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="small text-muted">Duration</div>
+                  <div>6 months</div>
+                </td>
+                <td class="text-center">
+                  <div class="mx-auto chart-circle chart-circle-xs" data-value="0.51" data-thickness="3" data-color="red">
+                    <div class="chart-circle-value">41%</div>
+                  </div>
+                </td>
+                <td class="text-center">
+                  <div class="item-action dropdown">
+                    <a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+                      <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+                      <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            <tr>
+              <td class="text-center">
+                <div>Political Advocacy</div>
+              </td>
+              <td>
+                <div>Crystal Austin</div>
+                <div class="small text-muted">
+                  Registered: Apr 7, 2018
+                </div>
+              </td>
+              <td>
+                <div class="clearfix">
+                  <div class="float-left">
+                    <strong>96%</strong>
+                  </div>
+                  <div class="float-right">
+                    <small class="text-muted">Jun 11, 2015 - Jul 10, 2015</small>
+                  </div>
+                </div>
+                <div class="progress progress-xs">
+                  <div class="progress-bar bg-green" role="progressbar" style="width: 96%"
+                     aria-valuenow="96" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </td>
+              <td>
+                <div class="small text-muted">Duration</div>
+                <div>10 months</div>
+              </td>
+              <td class="text-center">
+                <div class="mx-auto chart-circle chart-circle-xs" data-value="0.72" data-thickness="3" data-color="green">
+                  <div class="chart-circle-value">72%</div>
+                </div>
+              </td>
+              <td class="text-center">
+                <div class="item-action dropdown">
+                  <a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
+                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
+                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            </tbody>
                     </table>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-lg-4">
+
+              <div class="col-lg-8 col-md-12">
                 <div class="card">
                   <div class="card-header">
-                    <h4 class="card-title">Browser Stats</h4>
+                    <h3 class="card-title">Map of Active Projects</h3>
                   </div>
-                  <table class="table card-table">
-                    <tr>
-                      <td width="1"><i class="fa fa-chrome text-muted"></i></td>
-                      <td>Google Chrome</td>
-                      <td class="text-right"><span class="text-muted">23%</span></td>
-                    </tr>
-                    <tr>
-                      <td><i class="fa fa-firefox text-muted"></i></td>
-                      <td>Mozila Firefox</td>
-                      <td class="text-right"><span class="text-muted">15%</span></td>
-                    </tr>
-                    <tr>
-                      <td><i class="fa fa-safari text-muted"></i></td>
-                      <td>Apple Safari</td>
-                      <td class="text-right"><span class="text-muted">7%</span></td>
-                    </tr>
-                    <tr>
-                      <td><i class="fa fa-internet-explorer text-muted"></i></td>
-                      <td>Internet Explorer</td>
-                      <td class="text-right"><span class="text-muted">9%</span></td>
-                    </tr>
-                    <tr>
-                      <td><i class="fa fa-opera text-muted"></i></td>
-                      <td>Opera mini</td>
-                      <td class="text-right"><span class="text-muted">23%</span></td>
-                    </tr>
-                    <tr>
-                      <td><i class="fa fa-edge text-muted"></i></td>
-                      <td>Microsoft edge</td>
-                      <td class="text-right"><span class="text-muted">9%</span></td>
-                    </tr>
-                  </table>
+                  <div class="card-body">
+                    <div class="map">
+                      <div class="map-content" id="map-world-svg"></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-lg-4">
+                <script>
+                  require(['jquery', 'vector-map', 'vector-map-world'], function(){
+                      $(document).ready(function(){
+                          var data = {"AF":16.63,"AL":11.58,"DZ":158.97,"AO":85.81,"AG":1.1,"AR":351.02,"AM":8.83,"AU":1219.72,"AT":366.26,"AZ":52.17,"BS":7.54,"BH":21.73,"BD":105.4,"BB":3.96,"BY":52.89,"BE":461.33,"BZ":1.43,"BJ":6.49,"BT":1.4,"BO":19.18,"BA":16.2,"BW":12.5,"BR":2023.53,"BN":11.96,"BG":44.84,"BF":8.67,"BI":1.47,"KH":11.36,"CM":21.88,"CA":1563.66,"CV":1.57,"CF":2.11,"TD":7.59,"CL":199.18,"CN":5745.13,"CO":283.11,"KM":0.56,"CD":12.6,"CG":11.88,"CR":35.02,"CI":22.38,"HR":59.92,"CY":22.75,"CZ":195.23,"DK":304.56,"DJ":1.14,"DM":0.38,"DO":50.87,"EC":61.49,"EG":216.83,"SV":21.8,"GQ":14.55,"ER":2.25,"EE":19.22,"ET":30.94,"FJ":3.15,"FI":231.98,"FR":2555.44,"GA":12.56,"GM":1.04,"GE":11.23,"DE":3305.9,"GH":18.06,"GR":305.01,"GD":0.65,"GT":40.77,"GN":4.34,"GW":0.83,"GY":2.2,"HT":6.5,"HN":15.34,"HK":226.49,"HU":132.28,"IS":12.77,"IN":1430.02,"ID":695.06,"IR":337.9,"IQ":84.14,"IE":204.14,"IL":201.25,"IT":2036.69,"JM":13.74,"JP":5390.9,"JO":27.13,"KZ":129.76,"KE":32.42,"KI":0.15,"KR":986.26,"UNDEFINED":5.73,"KW":117.32,"KG":4.44,"LA":6.34,"LV":23.39,"LB":39.15,"LS":1.8,"LR":0.98,"LY":77.91,"LT":35.73,"LU":52.43,"MK":9.58,"MG":8.33,"MW":5.04,"MY":218.95,"MV":1.43,"ML":9.08,"MT":7.8,"MR":3.49,"MU":9.43,"MX":1004.04,"MD":5.36,"MN":5.81,"ME":3.88,"MA":91.7,"MZ":10.21,"MM":35.65,"NA":11.45,"NP":15.11,"NL":770.31,"NZ":138,"NI":6.38,"NE":5.6,"NG":206.66,"false":413.51,"OM":53.78,"PK":174.79,"PA":27.2,"PG":8.81,"PY":17.17,"PE":153.55,"PH":189.06,"PL":438.88,"PT":223.7,"QA":126.52,"RO":158.39,"RU":1476.91,"RW":5.69,"WS":0.55,"ST":0.19,"SA":434.44,"SN":12.66,"RS":38.92,"SC":0.92,"SL":1.9,"SG":217.38,"SK":86.26,"SI":46.44,"SB":0.67,"ZA":354.41,"ES":1374.78,"LK":48.24,"KN":0.56,"LC":1,"VC":0.58,"SD":65.93,"SR":3.3,"SZ":3.17,"SE":444.59,"CH":522.44,"SY":59.63,"TW":426.98,"TJ":5.58,"TZ":22.43,"TH":312.61,"TL":0.62,"TG":3.07,"TO":0.3,"TT":21.2,"TN":43.86,"TR":729.05,"TM":0,"UG":17.12,"UA":136.56,"AE":239.65,"GB":2258.57,"US":14624.18,"UY":40.71,"UZ":37.72,"VU":0.72,"VE":285.21,"VN":101.99,"YE":30.02,"ZM":15.69,"ZW":5.5};
+                  
+                  
+                          var markers = true;
+                  
+                  
+                          $('#map-world-svg').vectorMap({
+                              map: 'world_mill',
+                              zoomButtons : true,
+                              zoomOnScroll: false,
+                              panOnDrag: true,
+                              backgroundColor: 'transparent',
+                              markers: markers,
+                              markerStyle: {
+                                  initial: {
+                                      fill: tabler.colors.blue,
+                                      stroke: '#fff',
+                                      "stroke-width": 1,
+                                      r: 5
+                                  },
+                              },
+                              onRegionTipShow: function(e, el, code, f){
+                                  el.html(el.html() + (data[code] ? ': <small>' + data[code]+'</small>' : ''));
+                              },
+                              series: {
+                                  regions: [{
+                                      values: data,
+                                      scale: ['#EFF3F6', tabler.colors.blue],
+                                      normalizeFunction: 'polynomial'
+                                  }]
+                              },
+                              regionStyle: {
+                                  initial: {
+                                      fill: '#F4F4F4'
+                                  }
+                              }
+                          });
+                      });
+                  });
+                </script>
+               </div>
+
+
+               <div class="col-lg-4 col-md-6">
                 <div class="card">
                   <div class="card-header">
-                    <h2 class="card-title">Projects</h2>
+                    <h3 class="card-title">Head Office</h3>
+                    <div class="card-options">
+                      <button type="button" class="btn btn-option" data-toggle="tooltip" title="Edit">
+                        <i class="si si-pencil"></i>
+                      </button>
+                      <div class="dropdown card-options-dropdown">
+                        <button type="button" class="btn btn-option dropdown-toggle" data-toggle="dropdown"><i class="si si-options"></i></button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                          <a class="dropdown-item" href="javascript:void(0)">
+                            <i class="si si-bell mr-3"></i>News
+                          </a>
+                          <a class="dropdown-item" href="javascript:void(0)">
+                            <i class="si si-envelope mr-3"></i>Messages
+                          </a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="javascript:void(0)">
+                            <i class="si si-pencil mr-3"></i>Edit Profile
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <table class="table card-table">
-                    <tr>
-                      <td>Admin Template</td>
-                      <td class="text-right">
-                        <span class="badge badge-default">65%</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Landing Page</td>
-                      <td class="text-right">
-                        <span class="badge badge-success">Finished</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Backend UI</td>
-                      <td class="text-right">
-                        <span class="badge badge-danger">Rejected</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Personal Blog</td>
-                      <td class="text-right">
-                        <span class="badge badge-default">40%</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>E-mail Templates</td>
-                      <td class="text-right">
-                        <span class="badge badge-default">13%</span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Corporate Website</td>
-                      <td class="text-right">
-                        <span class="badge badge-warning">Pending</span>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <div class="card">
-                  <div class="card-header">
-                    <h3 class="card-title">Members</h3>
-                  </div>
-                  <div class="card-body o-auto" style="height: 15rem">
-                    <ul class="list-unstyled list-separated">
-                      <li class="list-separated-item">
-                        <div class="row align-items-center">
-                          <div class="col-auto">
-                            <span class="avatar avatar-md d-block" style="background-image: url(demo/faces/female/12.jpg)"></span>
-                          </div>
-                          <div class="col">
-                            <div>
-                              <a href="javascript:void(0)" class="text-inherit">Amanda Hunt</a>
-                            </div>
-                            <small class="d-block item-except text-sm text-muted h-1x">amanda_hunt@example.com</small>
-                          </div>
-                          <div class="col-auto">
-                            <div class="item-action dropdown">
-                              <a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
-                              <div class="dropdown-menu dropdown-menu-right">
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
-                                <div class="dropdown-divider"></div>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="list-separated-item">
-                        <div class="row align-items-center">
-                          <div class="col-auto">
-                            <span class="avatar avatar-md d-block" style="background-image: url(demo/faces/female/21.jpg)"></span>
-                          </div>
-                          <div class="col">
-                            <div>
-                              <a href="javascript:void(0)" class="text-inherit">Laura Weaver</a>
-                            </div>
-                            <small class="d-block item-except text-sm text-muted h-1x">lauraweaver@example.com</small>
-                          </div>
-                          <div class="col-auto">
-                            <div class="item-action dropdown">
-                              <a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
-                              <div class="dropdown-menu dropdown-menu-right">
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
-                                <div class="dropdown-divider"></div>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="list-separated-item">
-                        <div class="row align-items-center">
-                          <div class="col-auto">
-                            <span class="avatar avatar-md d-block" style="background-image: url(demo/faces/female/29.jpg)"></span>
-                          </div>
-                          <div class="col">
-                            <div>
-                              <a href="javascript:void(0)" class="text-inherit">Margaret Berry</a>
-                            </div>
-                            <small class="d-block item-except text-sm text-muted h-1x">margaret88@example.com</small>
-                          </div>
-                          <div class="col-auto">
-                            <div class="item-action dropdown">
-                              <a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
-                              <div class="dropdown-menu dropdown-menu-right">
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
-                                <div class="dropdown-divider"></div>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="list-separated-item">
-                        <div class="row align-items-center">
-                          <div class="col-auto">
-                            <span class="avatar avatar-md d-block" style="background-image: url(demo/faces/female/2.jpg)"></span>
-                          </div>
-                          <div class="col">
-                            <div>
-                              <a href="javascript:void(0)" class="text-inherit">Nancy Herrera</a>
-                            </div>
-                            <small class="d-block item-except text-sm text-muted h-1x">nancy_83@example.com</small>
-                          </div>
-                          <div class="col-auto">
-                            <div class="item-action dropdown">
-                              <a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
-                              <div class="dropdown-menu dropdown-menu-right">
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
-                                <div class="dropdown-divider"></div>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="list-separated-item">
-                        <div class="row align-items-center">
-                          <div class="col-auto">
-                            <span class="avatar avatar-md d-block" style="background-image: url(demo/faces/male/34.jpg)"></span>
-                          </div>
-                          <div class="col">
-                            <div>
-                              <a href="javascript:void(0)" class="text-inherit">Edward Larson</a>
-                            </div>
-                            <small class="d-block item-except text-sm text-muted h-1x">edward90@example.com</small>
-                          </div>
-                          <div class="col-auto">
-                            <div class="item-action dropdown">
-                              <a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
-                              <div class="dropdown-menu dropdown-menu-right">
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
-                                <div class="dropdown-divider"></div>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="list-separated-item">
-                        <div class="row align-items-center">
-                          <div class="col-auto">
-                            <span class="avatar avatar-md d-block" style="background-image: url(demo/faces/female/11.jpg)"></span>
-                          </div>
-                          <div class="col">
-                            <div>
-                              <a href="javascript:void(0)" class="text-inherit">Joan Hanson</a>
-                            </div>
-                            <small class="d-block item-except text-sm text-muted h-1x">joan.hanson@example.com</small>
-                          </div>
-                          <div class="col-auto">
-                            <div class="item-action dropdown">
-                              <a href="javascript:void(0)" data-toggle="dropdown" class="icon"><i class="fe fe-more-vertical"></i></a>
-                              <div class="dropdown-menu dropdown-menu-right">
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-tag"></i> Action </a>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-edit-2"></i> Another action </a>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-message-square"></i> Something else here</a>
-                                <div class="dropdown-divider"></div>
-                                <a href="javascript:void(0)" class="dropdown-item"><i class="dropdown-icon fe fe-link"></i> Separated link</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
+                  <div class="card-map card-map-placeholder" style="background-image: url(./demo/ewb.jpg)"></div>
+                  <div class="card-body">
+                    <div class="media mb-5">
+                      <img class="d-flex mr-5 rounded" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2264%22%20height%3D%2264%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ec911398e%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A10pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ec911398e%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2213.84375%22%20y%3D%2236.65%22%3E64x64%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Generic placeholder image">
+                      <div class="media-body">
+                        <h5>EWB Canada</h5>
+                        <address class="text-muted small">
+                          1290 Bay Street<br>
+                          Toronto, ON M5S2J3
+                        </address>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="h6">Relationship</div>
+                        <p>Client</p>
+                      </div>
+                      <div class="col-6">
+                        <div class="h6">Business Type</div>
+                        <p>Non Profit</p>
+                      </div>
+                      <div class="col-6">
+                        <div class="h6">Website</div>
+                        <p><a href="javascript:void(0)">http://www.ewb.ca</a></p>
+                      </div>
+                      <div class="col-6">
+                        <div class="h6">Office Phone</div>
+                        <p>+123456789</p>
+                      </div>
+                    </div>
+                   
                   </div>
                 </div>
+             
+                <script>
+                  require(['jquery', 'vector-map', 'vector-map-de'], function(){
+                      $(document).ready(function(){
+                          var data = {"DE-BE":11,"DE-ST":43,"DE-RP":4,"DE-BB":65,"DE-NI":4,"DE-MV":24,"DE-TH":45,"DE-BW":7,"DE-HH":45,"DE-SH":9,"DE-NW":8,"DE-SN":27,"DE-HB":42,"DE-SL":85,"DE-BY":24,"DE-HE":66};
+                  
+                  
+                          var markers = [
+                              {latLng: [52.50, 13.39], name: 'Berlin'},
+                              {latLng: [53.56, 10.00], name: 'Hamburg'},
+                              {latLng: [48.13, 11.56], name: 'Munich'},
+                              {latLng: [50.95, 6.96], name: 'Cologne'},
+                              {latLng: [50.11, 8.68], name: 'Frankfurt am Main'},
+                              {latLng: [48.77, 9.17], name: 'Stuttgart'},
+                              {latLng: [51.23, 6.78], name: 'Düsseldorf'},
+                              {latLng: [51.51, 7.46], name: 'Dortmund'},
+                              {latLng: [51.45, 7.01], name: 'Essen'},
+                              {latLng: [53.07, 8.80], name: 'Bremen'}
+                          ];
+                  
+                  
+                          $('#map-germany-svg').vectorMap({
+                              map: 'de_merc',
+                              zoomButtons : false,
+                              zoomOnScroll: false,
+                              panOnDrag: false,
+                              backgroundColor: 'transparent',
+                              markers: markers,
+                              markerStyle: {
+                                  initial: {
+                                      fill: tabler.colors.blue,
+                                      stroke: '#fff',
+                                      "stroke-width": 1,
+                                      r: 5
+                                  },
+                              },
+                              onRegionTipShow: function(e, el, code, f){
+                                  el.html(el.html() + (data[code] ? ': <small>' + data[code]+'</small>' : ''));
+                              },
+                              series: {
+                                  regions: [{
+                                      values: data,
+                                      scale: ['#EFF3F6', tabler.colors.blue],
+                                      normalizeFunction: 'polynomial'
+                                  }]
+                              },
+                              regionStyle: {
+                                  initial: {
+                                      fill: '#F4F4F4'
+                                  }
+                              }
+                          });
+                      });
+                  });
+                </script>
               </div>
+              
+
               <div class="col-md-6 col-lg-12">
                 <div class="row">
                   <div class="col-sm-6 col-lg-3">
@@ -1424,9 +1272,7 @@
                     <li class="list-inline-item"><a href="./faq.html">FAQ</a></li>
                   </ul>
                 </div>
-                <div class="col-auto">
-                  <a href="https://github.com/tabler/tabler" class="btn btn-outline-primary btn-sm">Source code</a>
-                </div>
+                
               </div>
             </div>
             <div class="col-12 col-lg-auto mt-3 mt-lg-0 text-center">
