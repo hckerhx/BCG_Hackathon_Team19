@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\tabler-dev",
+    "\\tabler-dev\\dist"
   ],
+  "SelectedNode": "\\tabler-dev\\dist\\index_ewb.html",
   "PreviewInSolutionExplorer": false
 }
